@@ -1,0 +1,38 @@
+body {
+    background-color: darkgrey;
+}
+
+.wrapper {
+    display: flex;
+}
+.form-field {
+    flex: 2;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-field input {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-field input[type="text"]:focus {
+    background-color: darkgrey;
+}
+
+.array-field {
+    flex: 2;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+.result-field {
+    flex: 2;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+
